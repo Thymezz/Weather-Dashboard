@@ -1,0 +1,1 @@
+{"root":["../client/src/main.ts","../client/src/vite-env.d.ts","../server/src/server.ts","../server/src/routes/htmlRoutes.ts","../server/src/routes/index.ts","../server/src/routes/api/index.ts","../server/src/routes/api/weatherRoutes.ts","../server/src/service/historyService.ts","../server/src/service/weatherService.ts"],"version":"5.7.3"}

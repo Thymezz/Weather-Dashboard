@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "useUnknownInCatchVariables": true,
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "declaration": true,                  // Ensure declaration is set to true
+    "emitDeclarationOnly": true,          // Set to true to allow importing TypeScript extensions
+    "allowImportingTsExtensions": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "isolatedModules": true
+  },
+  "include": ["client/src/**/*.ts", "server/src/**/*.ts"],  // Specify the include paths
+  "exclude": ["client/dist", "server/dist", "node_modules"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npx tsc && vite build",
+    "start": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^6.0.0",
+    "typescript": "^5.4.5",
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}
